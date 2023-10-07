@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root{
+    --black: #30271c;
+    --white: #fff;
+    --hover: #c7a17a;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+body{
+    height: 100000px;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: var(--black);
+}
+.container-top{
+    width: 100%;
+    background-color: var(--white);
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 70px;
+    position: fixed;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    color: var(--black);
+    text-transform: uppercase;
+    padding:  0 60px 0 60px;
+    line-height: 70px;
+    font-weight: 600;
+}
+.right-container{
+    display: inline-block;
+    margin-right: 50px;
+    height: 70px;
+    line-height: 70px;
+    background-color: var(--white);
+    float: right;
+}
+
+.right-container .menu a {
+    display: inline-block;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+.right-container .menu a span{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight:700;
+    padding: 0 22px;
+    color: var(--black);
+    position: relative;    
+}
+
+.right-container .menu a span:hover{
+    color: var(--hover);
+    transition: 0.3s;
+}
+#cart{
+    color: var(--black);
+    font-size: 15px;
+    font-weight: 15px;
+    margin-left: 50px;
+}
+#search{
+    color: var(--black);
+    font-size: 15px;
+}
+.slide-container{
+}
